@@ -25,7 +25,7 @@ Before you can deploy this application, ensure you have the following installed:
     export AWS_PROFILE=xxx
 3. Set up a Python virtual environment and install AWS CDK and Node.js version 18 and the required Python libraries:
     ```bash
-    python -m venv .venv
+    python3.11 -m venv .venv
     source .venv/bin/activate
     npm install -g aws-cdk@latest
     npm update -g aws-cdk
