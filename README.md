@@ -46,12 +46,14 @@ Before you can deploy this application, ensure you have the following installed:
 4. EventBridge Rule: Triggers the Lambda function on a scheduled basis.
 
 
-## Removing the Solution
-    Run the following command in your terminal where the CDK project is initialized:
 
-    ```bash
-    cdk destroy
     
+## Removing the Solution
+Run the following command in your terminal where the CDK project is initialized:
+
+```bash
+cdk destroy
+
 
 ## Contributing
     Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
