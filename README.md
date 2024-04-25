@@ -45,5 +45,12 @@ Before you can deploy this application, ensure you have the following installed:
 3. IAM Roles: Ensures the Lambda function has necessary permissions to access Route 53 and S3.
 4. EventBridge Rule: Triggers the Lambda function on a scheduled basis.
 
-
+## Contributing
 Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
+
+
+## License
+This project is licensed under the MIT License.
+
+## Disclaimer
+This repository and its contents are not endorsed by or affiliated with Amazon Web Services (AWS) or any other third-party entities. It represents my personal viewpoints and not those of my past or current employers. All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.
