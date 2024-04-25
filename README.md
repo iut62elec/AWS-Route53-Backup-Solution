@@ -49,8 +49,8 @@ Before you can deploy this application, ensure you have the following installed:
 ## Removing the Solution
     Run the following command in your terminal where the CDK project is initialized:
 
-        ```bash
-        cdk destroy
+    ```bash
+    cdk destroy
     
 
 ## Contributing
