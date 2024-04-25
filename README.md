@@ -46,13 +46,14 @@ Before you can deploy this application, ensure you have the following installed:
 4. EventBridge Rule: Triggers the Lambda function on a scheduled basis.
 
 
-## Completely Removing the Solution
-If you wish to completely remove all assets associated with this solution from your AWS account:
+## Removing the Solution
+    If you wish to completely remove all assets associated with this solution from your AWS account:
 
-Run the following command in your terminal where the CDK project is initialized:
-```bash
-cdk destroy
+    Run the following command in your terminal where the CDK project is initialized:
 
+    ```bash
+    cdk destroy
+    ```
 
 ## Contributing
 Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
