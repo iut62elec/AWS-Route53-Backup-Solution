@@ -53,7 +53,7 @@ Before you can deploy this application, ensure you have the following installed:
 
     ```bash
     cdk destroy
-    ```
+    
 
 ## Contributing
 Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
