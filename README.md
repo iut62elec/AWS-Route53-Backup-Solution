@@ -47,18 +47,18 @@ Before you can deploy this application, ensure you have the following installed:
 
 
 ## Removing the Solution
-    1. Run the following command in your terminal where the CDK project is initialized:
+    Run the following command in your terminal where the CDK project is initialized:
 
-    ```bash
-    cdk destroy
+        ```bash
+        cdk destroy
     
 
 ## Contributing
-Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
+    Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
 
 
 ## License
-This project is licensed under the MIT License.
+    This project is licensed under the MIT License.
 
 ## Disclaimer
-This repository and its contents are not endorsed by or affiliated with Amazon Web Services (AWS) or any other third-party entities. It represents my personal viewpoints and not those of my past or current employers. All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.
+    This repository and its contents are not endorsed by or affiliated with Amazon Web Services (AWS) or any other third-party entities. It represents my personal viewpoints and not those of my past or current employers. All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.
