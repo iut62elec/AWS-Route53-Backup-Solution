@@ -17,7 +17,7 @@ Before you can deploy this application, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/iut62elec/AWS-Route53-Backup-Solution.git
 
 2. Configure your AWS profile (replace xxx with your profile name):
     ```bash
@@ -39,10 +39,10 @@ Before you can deploy this application, ensure you have the following installed:
     cdk deploy
 
 ## Application Components
-. S3 Bucket: Stores the Route 53 zone backups.
-. Lambda Function: Executes the backup process every day, writing the zone records to the S3 bucket.
-. IAM Roles: Ensures the Lambda function has necessary permissions to access Route 53 and S3.
-. EventBridge Rule: Triggers the Lambda function on a scheduled basis.
+1. S3 Bucket: Stores the Route 53 zone backups.
+2. Lambda Function: Executes the backup process every day, writing the zone records to the S3 bucket.
+3. IAM Roles: Ensures the Lambda function has necessary permissions to access Route 53 and S3.
+4. EventBridge Rule: Triggers the Lambda function on a scheduled basis.
 
 
 Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
