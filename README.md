@@ -53,7 +53,7 @@ Run the following command in your terminal where the CDK project is initialized:
 
     ```bash
     cdk destroy
-
+    ```
 
 ## Contributing
 Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
