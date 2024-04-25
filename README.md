@@ -56,11 +56,11 @@ cdk destroy
 
 
 ## Contributing
-    Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
+Feel free to contribute to this project by submitting pull requests or reporting issues. Your feedback is appreciated!
 
 
 ## License
-    This project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
 ## Disclaimer
-    This repository and its contents are not endorsed by or affiliated with Amazon Web Services (AWS) or any other third-party entities. It represents my personal viewpoints and not those of my past or current employers. All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.
+This repository and its contents are not endorsed by or affiliated with Amazon Web Services (AWS) or any other third-party entities. It represents my personal viewpoints and not those of my past or current employers. All third-party libraries, modules, plugins, and SDKs are the property of their respective owners.
