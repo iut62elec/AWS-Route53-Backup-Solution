@@ -1,0 +1,271 @@
+{
+  "version": "21.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "R53BackupStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "R53BackupStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/R53BackupStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.a517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96",
+              "id": "a517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96",
+              "packaging": "zip",
+              "sourceHash": "a517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96",
+              "s3BucketParameter": "AssetParametersa517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96S3BucketBB218DE0",
+              "s3KeyParameter": "AssetParametersa517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96S3VersionKey199DB975",
+              "artifactHashParameter": "AssetParametersa517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96ArtifactHash6220AD0A"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:202:29)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack.js:473:33)",
+              "/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:229:16)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:46:44)",
+              "AssetCode.bind (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/code.js:277:26)",
+              "new Function (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function.js:114:33)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/R53BackupBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "R53BackupBucketF9166E0F",
+            "trace": [
+              "new Bucket (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3/lib/bucket.js:666:26)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/R53BackupFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "R53BackupFunctionServiceRole8035FE17",
+            "trace": [
+              "new Role (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-iam/lib/role.js:63:22)",
+              "new Function (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function.js:97:35)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/R53BackupFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "R53BackupFunctionServiceRoleDefaultPolicy065421BC",
+            "trace": [
+              "new Policy (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-iam/lib/policy.js:57:26)",
+              "Role.addToPrincipalPolicy (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-iam/lib/role.js:247:34)",
+              "Grant.addToPrincipal (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-iam/lib/grant.js:102:65)",
+              "Grant.addToPrincipalOrResource (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-iam/lib/grant.js:50:30)",
+              "Bucket.grant (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3/lib/bucket.js:487:31)",
+              "Bucket.grantPut (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3/lib/bucket.js:316:21)",
+              "/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:172",
+              "Kernel._Kernel_ensureSync (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10480:24)",
+              "Kernel.invoke (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:102)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/R53BackupFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "R53BackupFunctionDE483914",
+            "trace": [
+              "new Function (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function.js:172:26)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/AssetParameters/a517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96S3BucketBB218DE0",
+            "trace": [
+              "new FileAssetParameters (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:189:22)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack.js:473:33)",
+              "/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:229:16)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:46:44)",
+              "AssetCode.bind (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/code.js:277:26)",
+              "new Function (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function.js:114:33)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/AssetParameters/a517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96S3VersionKey199DB975",
+            "trace": [
+              "new FileAssetParameters (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:189:22)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack.js:473:33)",
+              "/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:229:16)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:46:44)",
+              "AssetCode.bind (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/code.js:277:26)",
+              "new Function (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function.js:114:33)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/AssetParameters/a517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersa517a20e7c8437ea517d3b9f4e5bd314fffea08cf66b6d0b640331fefbca3e96ArtifactHash6220AD0A",
+            "trace": [
+              "new FileAssetParameters (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:189:22)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack.js:473:33)",
+              "/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:229:16)",
+              "LegacyStackSynthesizer.addFileAsset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:46:44)",
+              "AssetCode.bind (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/code.js:277:26)",
+              "new Function (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function.js:114:33)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/Rule/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Rule4C995B7F",
+            "trace": [
+              "new Rule (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-events/lib/rule.js:43:26)",
+              "Kernel._Kernel_create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10108:25)",
+              "Kernel.create (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9779:93)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/Rule/AllowEventRuleR53BackupStackR53BackupFunction5CA872F5": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RuleAllowEventRuleR53BackupStackR53BackupFunction5CA872F513CAAB82",
+            "trace": [
+              "Function.addPermission (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:84:9)",
+              "Object.addLambdaPermission (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-events-targets/lib/util.js:62:17)",
+              "LambdaFunction.bind (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-events-targets/lib/lambda.js:31:16)",
+              "Rule.addTarget (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/aws-events/lib/rule.js:102:36)",
+              "/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:172",
+              "Kernel._Kernel_ensureSync (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10480:24)",
+              "Kernel.invoke (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:102)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stage.js:104:41)",
+              "/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:172",
+              "Kernel._Kernel_ensureSync (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10480:24)",
+              "Kernel.invoke (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:102)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ],
+        "/R53BackupStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/jsii-kernel-BhkSBu/node_modules/@aws-cdk/core/lib/stage.js:104:41)",
+              "/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:172",
+              "Kernel._Kernel_ensureSync (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:10480:24)",
+              "Kernel.invoke (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:9855:102)",
+              "KernelHost.processRequest (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11696:36)",
+              "KernelHost.run (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11656:22)",
+              "Immediate._onImmediate (/private/var/folders/6n/9tgz5ylj5xsch8vskn7pl9mm0000gs/T/tmpw69x0ghk/lib/program.js:11657:46)",
+              "process.processImmediate (node:internal/timers:476:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "R53BackupStack"
+    }
+  }
+}
