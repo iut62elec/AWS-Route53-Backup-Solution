@@ -47,9 +47,7 @@ Before you can deploy this application, ensure you have the following installed:
 
 
 ## Removing the Solution
-    If you wish to completely remove all assets associated with this solution from your AWS account:
-
-    Run the following command in your terminal where the CDK project is initialized:
+    1. Run the following command in your terminal where the CDK project is initialized:
 
     ```bash
     cdk destroy
