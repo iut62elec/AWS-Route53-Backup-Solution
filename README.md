@@ -18,6 +18,7 @@ Before you can deploy this application, ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/iut62elec/AWS-Route53-Backup-Solution.git
+   cd AWS-Route53-Backup-Solution
 
 2. Configure your AWS profile (replace xxx with your profile name):
     ```bash
