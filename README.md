@@ -6,6 +6,9 @@ This repository contains an AWS Cloud Development Kit (CDK) application for back
 ## Author
 Pedram Jahangiri
 
+![Alt text](route53_backup_solution_architecture.png "Route53 Backup Solution Architecture")
+
+
 ## Prerequisites
 Before you can deploy this application, ensure you have the following installed:
 - Node.js and NPM
