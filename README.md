@@ -1,7 +1,7 @@
 # AWS Route 53 Backup Solution
 
 ## Overview
-This repository contains an AWS Cloud Development Kit (CDK) application for backing up AWS Route 53 zone records. As of today (April 2024) AWS does not provide a native backup service for Route 53, making it essential to have a custom solution to safeguard DNS records. This CDK application automatically provisions resources to back up Route 53 zones to an S3 bucket, scheduling backups to occur every day.
+This repository contains an AWS Cloud Development Kit (CDK) application for backing up AWS Route 53 zone records. As of today (April 2024) AWS does not provide a native backup service for Route 53, making it essential to have a custom solution to safeguard DNS records. This CDK application automatically provisions resources to back up Route 53 zones to an S3 bucket, scheduling backups to occur every day. For more detail please refer to [my blog](https://medium.com/@pedram.jahangiri62/simplifying-aws-route-53-backups-with-a-custom-cdk-solution-81b9bcdc5cb8).
 
 ## Author
 Pedram Jahangiri
